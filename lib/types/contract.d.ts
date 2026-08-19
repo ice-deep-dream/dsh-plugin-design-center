@@ -77,21 +77,25 @@ export interface DesignRenderOutcome {
     readonly timedOut: boolean;
 }
 export type DesignError = {
-    code: 'no-cwd';
+    code: 'internal';
     message: string;
-} | {
-    code: 'not-found';
-    message: string;
+    details: Record<string, never>;
 } | {
     code: 'bad-request';
     message: string;
+    details: {
+        issues: readonly unknown[];
+    };
 } | {
-    code: 'render-failed';
+    code: 'command-error';
     message: string;
-    details?: DesignRenderOutcome;
+    details: Record<string, never>;
 } | {
-    code: 'internal';
+    code: 'directory-unreadable';
     message: string;
+    details: {
+        path: string;
+    };
 };
 export type DesignResult<T> = {
     ok: true;
