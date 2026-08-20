@@ -1,5 +1,5 @@
-{
-  "name": "@deepseek-ai/dsh-client-ui-design-center",
+﻿{
+  "name": "@cryodream/dsh-client-ui-design-center",
   "description": "Design center conversation tab plugin for deepseek-harness: native rendering of architecture/modules/flows/plan boards with edit and re-render support",
   "version": "0.1.0",
   "publishConfig": {

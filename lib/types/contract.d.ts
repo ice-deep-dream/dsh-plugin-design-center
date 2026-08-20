@@ -1,7 +1,7 @@
-/**
+﻿/**
  * Wire contract shared between the host apply entry and the browser client.
  * Zero Node/browser runtime deps so either side may import the types.
- * @module @deepseek-ai/dsh-client-ui-design-center/contract
+ * @module @cryodream/dsh-client-ui-design-center/contract
  */
 export type DiagramType = 'architecture' | 'modules' | 'flow' | 'unknown';
 /** A rendered diagram spec file paired with its SVG source. */
