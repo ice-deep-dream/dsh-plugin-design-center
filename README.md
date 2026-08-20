@@ -49,15 +49,34 @@
 
 安装后，打开任意会话即可在对话面板看到「设计中心」标签。
 
+## 前置条件
+
+本插件**不内置**设计看板的生成能力，它是 [`dev-plan-assistant`](https://github.com/ice-deep-dream/skills-dev-plan-assistant) 技能的 UI 载体，运行时依赖该技能：
+
+- 看板内容（架构 / 模块 / 流程图 SVG 与 `plan.json`）由技能生成到项目的 `docs/design/diagrams/` 目录，插件只负责读取与渲染；
+- 点击「↻ 重新渲染」时，插件会调用宿主上 `~/.agents/skills/dev-plan-assistant/diagrams/archscribe/scripts/render_animated_diagram.py` 重绘图表，因此**宿主必须已安装该技能并具备 Python 3 环境**。
+
+请先安装技能：
+
+```bash
+# 将 dev-plan-assistant 技能克隆到 dsh 技能目录
+git clone https://github.com/ice-deep-dream/skills-dev-plan-assistant.git "$HOME/.agents/skills/dev-plan-assistant"
+
+# 重渲染依赖 Python 3（macOS / Linux 通常自带，Windows 可从 python.org 安装）
+python --version
+```
+
+> 仅查看已生成的 SVG 看板时无需技能或 Python；但要（重新）生成图表，二者缺一不可。
+
 ## 安装
 
-通过 dsh 插件管理器以 web profile 安装：
+满足前置条件后，通过 dsh 插件管理器以 web profile 安装：
 
 ```bash
 dsh plugin --profile web add git+https://github.com/ice-deep-dream/dsh-plugin-design-center.git
 ```
 
-随后重启 dsh（或重载 web profile），进入会话即可看到设计中心标签。
+随后重启 dsh（或重载 web profile），进入会话即可看到设计中心标签。首次使用请在会话中让 `dev-plan-assistant` 完成项目初始化，生成 `docs/design/diagrams/` 下的看板文件。
 
 ## 开发
 
