@@ -1,8 +1,11 @@
-﻿# @cryodream/dsh-client-ui-design-center
+﻿<p align="center">
+  <a href="https://github.com/ice-deep-dream/dsh-plugin-design-center">
+    <img alt="design-center" width="120" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%2360A5FA'/><stop offset='1' stop-color='%232563EB'/></linearGradient></defs><rect x='12' y='12' width='104' height='104' rx='24' fill='url(%23g)'/><rect x='28' y='34' width='28' height='20' rx='6' fill='none' stroke='white' stroke-width='3.5'/><rect x='72' y='34' width='28' height='20' rx='6' fill='white' fill-opacity='0.25' stroke='white' stroke-width='3.5'/><rect x='50' y='74' width='28' height='20' rx='6' fill='white'/><path d='M42 54 V64 a6 6 0 0 0 6 6 H56' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/><path d='M86 54 V64 a6 6 0 0 1 -6 6 H72' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/></svg>" />
+  </a>
+</p>
+# @cryodream/dsh-client-ui-design-center
 
-> 为 [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) 打造的设计中心会话标签插件：把架构 / 模块 / 流程 / 计划看板原生渲染进对话面板，支持就地编辑与重新渲染。
-
-<p align="left">
+<p align="center">
   <img alt="npm" src="https://img.shields.io/badge/npm-%40cryodream%2Fdsh--client--ui--design--center-CB3837?logo=npm&style=flat-square">
   <img alt="React" src="https://img.shields.io/badge/React-%3E%3D18-61DAFB?logo=react&logoColor=white&style=flat-square">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white&style=flat-square">
@@ -10,7 +13,9 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-28A745?style=flat-square">
 </p>
 
-[English](./README.en.md) · 简体中文
+<p align="center"><b>简体中文</b> · <a href="./README.en.md">English</a></p>
+
+> 为 [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) 打造的设计中心会话标签插件：把架构 / 模块 / 流程 / 计划看板原生渲染进对话面板，支持就地编辑与重新渲染。
 
 ## 特性
 
