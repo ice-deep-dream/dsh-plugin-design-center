@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="design-center feature preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EEF4FF"/>
+      <stop offset="1" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#CBD5E1" fill-opacity="0.55"/>
+    </pattern>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,4.5 L0,9 Z" fill="#2563EB"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="20" width="760" height="420" rx="18" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="60" y="48" width="680" height="366" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <path d="M60,78 Q60,62 76,62 L724,62 Q740,62 740,78 L740,86 L60,86 Z" fill="#F1F5F9"/>
+    <circle cx="86" cy="74" r="5" fill="#F87171"/>
+    <circle cx="104" cy="74" r="5" fill="#FBBF24"/>
+    <circle cx="122" cy="74" r="5" fill="#34D399"/>
+    <text x="400" y="78" text-anchor="middle" font-size="12" fill="#64748B">session · design-center</text>
+
+    <rect x="60" y="86" width="232" height="328" fill="#FAFBFC"/>
+    <line x1="292" y1="86" x2="292" y2="414" stroke="#E2E8F0"/>
+
+    <circle cx="86" cy="114" r="14" fill="url(#accent)"/>
+    <text x="86" y="119" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">D</text>
+    <text x="108" y="111" font-size="13" font-weight="600" fill="#0F172A">Dev Plan Assistant</text>
+    <text x="108" y="126" font-size="10" fill="#16A34A">● 在线</text>
+
+    <rect x="156" y="148" width="120" height="40" rx="10" fill="#DBEAFE"/>
+    <text x="166" y="165" font-size="11" fill="#1E3A8A">梳理系统架构与模块</text>
+    <text x="166" y="180" font-size="11" fill="#1E3A8A">并输出开发计划</text>
+
+    <rect x="82" y="200" width="150" height="46" rx="10" fill="#F1F5F9" stroke="#E2E8F0"/>
+    <text x="94" y="220" font-size="11" fill="#334155">已生成架构 / 模块 /</text>
+    <text x="94" y="236" font-size="11" fill="#334155">流程 / 计划四份看板</text>
+
+    <rect x="82" y="260" width="186" height="56" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.5"/>
+    <rect x="82" y="260" width="4" height="56" rx="2" fill="url(#accent)"/>
+    <path d="M98,280 h14 v10 a3,3 0 0,1 -3,3 h-8 a3,3 0 0,1 -3,-3 z" fill="none" stroke="#2563EB" stroke-width="1.6"/>
+    <text x="120" y="283" font-size="11" font-weight="700" fill="#0F172A">设计中心</text>
+    <text x="120" y="299" font-size="10" fill="#64748B">点击右侧标签查看</text>
+    <text x="120" y="311" font-size="10" fill="#64748B">架构图 / 流程图</text>
+
+    <circle cx="92" cy="340" r="3" fill="#94A3B8"/>
+    <circle cx="104" cy="340" r="3" fill="#94A3B8"/>
+    <circle cx="116" cy="340" r="3" fill="#94A3B8"/>
+
+    <rect x="316" y="104" width="150" height="30" rx="8" fill="url(#accent)"/>
+    <g transform="translate(330,112)">
+      <rect x="0" y="4" width="10" height="10" rx="2" fill="none" stroke="#fff" stroke-width="1.4"/>
+      <rect x="13" y="4" width="10" height="10" rx="2" fill="#fff" fill-opacity="0.4" stroke="#fff" stroke-width="1.4"/>
+    </g>
+    <text x="378" y="124" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">设计中心</text>
+
+    <g font-size="11">
+      <rect x="316" y="148" width="64" height="28" rx="7" fill="#2563EB"/>
+      <text x="348" y="166" text-anchor="middle" fill="#FFFFFF" font-weight="600">架构</text>
+      <rect x="388" y="148" width="64" height="28" rx="7" fill="#FFFFFF" stroke="#CBD5E1"/>
+      <text x="420" y="166" text-anchor="middle" fill="#475569">模块</text>
+      <rect x="460" y="148" width="64" height="28" rx="7" fill="#FFFFFF" stroke="#CBD5E1"/>
+      <text x="492" y="166" text-anchor="middle" fill="#475569">流程</text>
+      <rect x="532" y="148" width="64" height="28" rx="7" fill="#FFFFFF" stroke="#CBD5E1"/>
+      <text x="564" y="166" text-anchor="middle" fill="#475569">计划</text>
+    </g>
+
+    <g>
+      <rect x="630" y="150" width="82" height="24" rx="6" fill="#EFF6FF" stroke="#BFDBFE"/>
+      <text x="671" y="166" text-anchor="middle" font-size="10.5" fill="#1D4ED8">↻ 重新渲染</text>
+    </g>
+
+    <line x1="316" y1="192" x2="712" y2="192" stroke="#E2E8F0"/>
+
+    <rect x="316" y="192" width="396" height="208" fill="url(#dots)"/>
+
+    <text x="332" y="216" font-size="13" font-weight="700" fill="#0F172A">系统架构</text>
+    <text x="332" y="232" font-size="10.5" fill="#94A3B8">Architecture · 手绘图 · Codex 白</text>
+
+    <g>
+      <rect x="446" y="252" width="124" height="46" rx="9" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.4"/>
+      <rect x="458" y="264" width="16" height="16" rx="4" fill="#DBEAFE"/>
+      <rect x="462" y="268" width="8" height="8" rx="1.5" fill="#2563EB"/>
+      <text x="482" y="274" font-size="11.5" font-weight="700" fill="#0F172A">前端</text>
+      <text x="482" y="288" font-size="9.5" fill="#94A3B8">React 18 · Web</text>
+
+      <rect x="336" y="326" width="124" height="46" rx="9" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.4"/>
+      <rect x="348" y="338" width="16" height="16" rx="4" fill="#DCFCE7"/>
+      <path d="M352,346 L356,342 L360,346 L356,350 Z" fill="#16A34A"/>
+      <text x="372" y="348" font-size="11.5" font-weight="700" fill="#0F172A">API 网关</text>
+      <text x="372" y="362" font-size="9.5" fill="#94A3B8">Runtime · 注入</text>
+
+      <rect x="556" y="326" width="124" height="46" rx="9" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.4"/>
+      <rect x="568" y="338" width="16" height="16" rx="4" fill="#FEF3C7"/>
+      <circle cx="576" cy="346" r="4" fill="#D97706"/>
+      <text x="592" y="348" font-size="11.5" font-weight="700" fill="#0F172A">服务层</text>
+      <text x="592" y="362" font-size="9.5" fill="#94A3B8">Session · Shell</text>
+
+      <rect x="446" y="378" width="124" height="30" rx="9" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.4"/>
+      <rect x="458" y="387" width="14" height="12" rx="3" fill="#FCE7F3"/>
+      <ellipse cx="465" cy="397" rx="5" ry="3.5" fill="none" stroke="#DB2777" stroke-width="1.2"/>
+      <text x="480" y="398" font-size="11" font-weight="700" fill="#0F172A">数据层 · dsh-fs</text>
+    </g>
+
+    <g fill="none" stroke="#2563EB" stroke-width="1.8" stroke-linecap="round" marker-end="url(#arrow)">
+      <path d="M470,298 Q430,310 410,324"/>
+      <path d="M546,298 Q586,310 606,324"/>
+      <path d="M460,326 Q490,314 520,326"/>
+      <path d="M508,372 Q508,372 508,376"/>
+    </g>
+  </g>
+</svg>

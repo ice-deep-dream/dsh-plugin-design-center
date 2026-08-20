@@ -1,9 +1,8 @@
 <p align="center">
   <a href="https://github.com/ice-deep-dream/dsh-plugin-design-center">
-    <img alt="design-center" width="120" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%2360A5FA'/><stop offset='1' stop-color='%232563EB'/></linearGradient></defs><rect x='12' y='12' width='104' height='104' rx='24' fill='url(%23g)'/><rect x='28' y='34' width='28' height='20' rx='6' fill='none' stroke='white' stroke-width='3.5'/><rect x='72' y='34' width='28' height='20' rx='6' fill='white' fill-opacity='0.25' stroke='white' stroke-width='3.5'/><rect x='50' y='74' width='28' height='20' rx='6' fill='white'/><path d='M42 54 V64 a6 6 0 0 0 6 6 H56' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/><path d='M86 54 V64 a6 6 0 0 1 -6 6 H72' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/></svg>" />
+    <img alt="design-center logo" width="112" src="./assets/logo.svg">
   </a>
 </p>
-# @cryodream/dsh-client-ui-design-center
 
 <p align="center">
   <img alt="npm" src="https://img.shields.io/badge/npm-%40cryodream%2Fdsh--client--ui--design--center-CB3837?logo=npm&style=flat-square">
@@ -15,7 +14,15 @@
 
 <p align="center"><a href="./README.md">简体中文</a> · <b>English</b></p>
 
+<p align="center">
+  <b>@cryodream/dsh-client-ui-design-center</b>
+</p>
+
 > A design-center conversation tab plugin for [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness): render architecture / modules / flows / plan boards natively inside the conversation panel, with inline editing and re-rendering.
+
+<p align="center">
+  <img alt="feature preview" width="760" src="./assets/feature.svg">
+</p>
 
 ## Features
 
@@ -60,6 +67,7 @@ Directory structure:
 
 ```text
 dsh-plugin-design-center/
+├── assets/                  # README icons and feature illustration
 ├── lib/                     # Compiled output (published with the package)
 │   ├── index.js             # Plugin entry
 │   ├── client.js            # Client injection (the design-center tab)
