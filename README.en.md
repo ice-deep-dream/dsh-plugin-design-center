@@ -30,7 +30,7 @@
 | --- | --- |
 | Four-in-one board | Organizes **Architecture**, **Modules**, **Flows**, and **Plan** as four subtabs within one dedicated conversation tab |
 | Native conversation UI | Injected as a dsh client plugin — no popups, no page jumps, seamlessly blends into the chat experience |
-| Hand-drawn SVG | Renders paper-style hand-drawn diagrams with a clean Codex white theme |
+| Clean monochrome | Renders `clean` (GitHub Wire) black/white/gray diagrams; deep-ink vs mid-gray strokes and solid vs dashed lines convey hierarchy & async |
 | Animated flows | Flow diagrams play step-by-step; connectors use filled arrowheads with automatic line trimming to avoid overlap |
 | Inline editing | Edit plan cards directly inside the panel (title, version, updatedAt, body) |
 | Re-render | Re-draw architecture and flow diagrams with one click via the host-side Python renderer |

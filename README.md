@@ -30,11 +30,29 @@
 | --- | --- |
 | 四合一看板 | 在一个专属会话标签内组织**架构**、**模块**、**流程**、**计划**四个子页签 |
 | 原生对话集成 | 以 dsh 客户端插件形式注入，不弹窗、不跳页，与会话体验无缝衔接 |
-| 手绘风 SVG | 渲染 paper 手绘风格图表，提供 Codex 纯白简约主题，干净克制 |
+| clean 黑白灰 | 默认渲染 `clean`（GitHub Wire）黑白灰图表，靠深墨/中灰描边与实/虚线传递主次与异步语义 |
 | 动画流程 | 流程图按步骤动画播放，连线使用实心箭头并自动裁切，避免重叠 |
 | 就地编辑 | 直接在面板内编辑计划卡片（标题、版本、更新时间、正文） |
 | 重新渲染 | 编辑后调用宿主端 Python 渲染器，一键重绘架构与流程图 |
 | 技能协同 | 读取 `dev-plan-assistant` 技能生成的四份设计产物，开箱即用 |
+
+## 实际渲染效果
+
+以下为 `dev-plan-assistant` 技能当前生成的 **clean 黑白灰** 真实产物（开发计划为可编辑卡片）：
+
+<p align="center">
+  <img alt="架构图" width="74%" src="./assets/preview/architecture.png">
+</p>
+
+<p align="center">
+  <img alt="模块图" width="74%" src="./assets/preview/modules.png">
+</p>
+
+<p align="center">
+  <img alt="流程图" width="74%" src="./assets/preview/flow-render.png">
+</p>
+
+> 画面上无彩色，语义靠灰阶表达：深墨=主链路/核心，中灰=次/数据/支撑，虚线=异步/回退。
 
 ## 工作方式
 
